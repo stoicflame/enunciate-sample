@@ -289,7 +289,7 @@ Take a look now at the generated documentation and you'll notice all the new enh
 
 ## Learn More
 
-* [[Users Guide]]
+* [Enunciate Documentation](https://github.com/stoicflame/enunciate/wiki)
 * [Issue Tracker](https://github.com/stoicflame/enunciate/issues/)
 * [JAXB](https://jaxb.java.net/)
 * [JAX-RS](https://jax-rs-spec.java.net/)
