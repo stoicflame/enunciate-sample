@@ -28,7 +28,7 @@
       <classpath refid="enunciate.classpath" />
     </taskdef>
 
-    <enunciate basedir="${basedir}/src/main/java" buildDir="${basedir}/target/${current.pom.build.finalName}">
+    <enunciate basedir="${basedir}/src/main/java" configFile="${basedir}/enunciate.xml" buildDir="${basedir}/target/${current.pom.build.finalName}">
       <include name="**/*.java" />
       <classpath refid="project.classpath" />
     </enunciate>

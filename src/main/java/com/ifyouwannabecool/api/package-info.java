@@ -14,15 +14,14 @@
  * limitations under the License.
  */
 
-package com.ifyouwannabecool.api;
-
-import javax.xml.ws.WebFault;
-
 /**
- * Thrown when an attempt is made to do something without the correct permissions.
+ * <p>Welcome to the API for our incredibly innovative social networking site,
+ * <u>IfYouWannaBeCool.com</u>!  We've got a full SOAP API, and even a few
+ * REST endpoints.  Feel free to check it out!</p>
  *
- * @author Ryan Heaton
+ * <h1>Disclaimer</h1>
+ *
+ * <p>You are free to use wannabecool as long as you agree to the
+ * terms of service which dictate that you give up your right to privacy.</p>
  */
-@WebFault
-public class PermissionDeniedException extends Exception {
-}
+package com.ifyouwannabecool.api;
