@@ -19,7 +19,7 @@
     <echo message="Current version is: ${current.pom.version}"/>
 
     <mvn:dependencies pathId="enunciate.classpath">
-      <dependency groupId="com.webcohesion.enunciate" artifactId="enunciate-top" version="2.0.0-M.4"/>
+      <dependency groupId="com.webcohesion.enunciate" artifactId="enunciate-top" version="2.0.0-RC.1"/>
     </mvn:dependencies>
 
     <mvn:dependencies pathId="project.classpath" pomRefId="current.pom"/>
