@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ifyouwannabecool</groupId>
-  <artifactId>wannabecool</artifactId>
+  <groupId>com.webcohesion.enunciate</groupId>
+  <artifactId>enunciate-sample</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Enunciate - IfYouWannaBeCool Social App</name>
+  <name>Enunciate - Sample "IfYouWannaBeCool" Social App</name>
 
   <properties>
     <enunciate.version>2.0.0</enunciate.version>
