@@ -290,6 +290,7 @@ Take a look now at the generated documentation and you'll notice all the new enh
 ## Learn More
 
 * [Enunciate Documentation](https://github.com/stoicflame/enunciate/wiki)
+* [Enunciate-Specific Annotations](https://github.com/stoicflame/enunciate/wiki/Enunciate-Specific-Annotations)
 * [Issue Tracker](https://github.com/stoicflame/enunciate/issues/)
 * [JAXB](https://jaxb.java.net/)
 * [JAX-RS](https://jax-rs-spec.java.net/)
