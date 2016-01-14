@@ -27,7 +27,7 @@ code. Here's how to invoke it:
 mvn archetype:generate \
   -DarchetypeGroupId=com.webcohesion.enunciate.archetypes \
   -DarchetypeArtifactId=enunciate-simple-archetype \
-  -DarchetypeVersion=2.1.1 \
+  -DarchetypeVersion=2.2.0 \
   -DgroupId=com.ifyouwannabecool \
   -DartifactId=wannabecool
 ```
