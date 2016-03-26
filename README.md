@@ -119,7 +119,7 @@ documentation will be forwarded to the container and resolved.
 ## Step 3: Invoke Enunciate
 
 Once we have our source code and project descriptors, the project tree looks like the following (you can see and browse it
-[here](https://github.com/stoicflame/enunciate-sample/blob/master)):
+[here](https://github.com/stoicflame/enunciate-sample/)):
 
 ```
 pom.xml
