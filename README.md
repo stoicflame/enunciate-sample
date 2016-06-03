@@ -36,24 +36,24 @@ mvn archetype:generate \
 
 ## Step 1: Write the Code
 
-We'll start by defining the domain of our app. We'll define a [`Persona`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/domain/persona/Persona.java)
-with an id, an alias, an email address, a name, and a picture. The [`Name`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/domain/persona/Name.java)
-is a complex structure, made up of a given name and a surname. We'll also define a [`Link`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/domain/link/Link.java)
-between two personas and a [`SocialGroup`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/domain/link/SocialGroup.java)
+We'll start by defining the domain of our app. We'll define a [`Persona`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/domain/persona/Persona.java)
+with an id, an alias, an email address, a name, and a picture. The [`Name`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/domain/persona/Name.java)
+is a complex structure, made up of a given name and a surname. We'll also define a [`Link`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/domain/link/Link.java)
+between two personas and a [`SocialGroup`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/domain/link/SocialGroup.java)
 consisting of an id, a group leader, the group members, and whether the group is exclusive.
 
-Next, we'll define the services available for our domain data. The [`PersonaService`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/api/PersonaService.java)
+Next, we'll define the services available for our domain data. The [`PersonaService`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/api/PersonaService.java)
 will define the operations available on a persona. This includes operations for reading a persona, storing a persona, and deleting a persona. The
-[`SocialGroupService`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/api/SocialGroupService.java) will
+[`SocialGroupService`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/api/SocialGroupService.java) will
 carry the operations that deal with linking and grouping personas. These operations include creating a link between two personas, creating a social group,
 adding someone to a social group, and reading the social groups of a given persona.
 
-We also define the possible exceptions that can get thrown, including a [`PermissionDeniedException`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/api/PermissionDeniedException.java)
-when trying to create a link between two people, and an [`ExclusiveGroupException`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/api/ExclusiveGroupException.java)
+We also define the possible exceptions that can get thrown, including a [`PermissionDeniedException`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/api/PermissionDeniedException.java)
+when trying to create a link between two people, and an [`ExclusiveGroupException`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/api/ExclusiveGroupException.java)
 when trying to add a persona to an exclusive group.
 
-After having defined our service interfaces, we create our implementation classes, [`PersonaServiceImpl`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/impl/PersonaServiceImpl.java)
-and [`SocialGroupServiceImpl`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/impl/SocialGroupServiceImpl.java).
+After having defined our service interfaces, we create our implementation classes, [`PersonaServiceImpl`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/impl/PersonaServiceImpl.java)
+and [`SocialGroupServiceImpl`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/impl/SocialGroupServiceImpl.java).
 
 #### Apply the Metadata
 
@@ -93,7 +93,7 @@ Other perfectly good JAX-RS implementations include [Resteasy](http://resteasy.j
 
 In order to describe our application to the JAX-RS implementation, we define an implementation of `javax.ws.rs.core.Application`. The particular
 implementation selected for this sample application provides an abstract class, `org.glassfish.jersey.server.ResourceConfig` that makes it easy to
-define our application. To that end, we create a class called [`App`](https://github.com/stoicflame/enunciate-sample/blob/master/com/ifyouwannabecool/App.java)
+define our application. To that end, we create a class called [`App`](https://github.com/stoicflame/enunciate-sample/blob/master/src/main/java/com/ifyouwannabecool/App.java)
 that tells Jersey which packages to recursively scan to find our JAX-RS resource API.
 
 #### The Build Files
@@ -119,7 +119,7 @@ documentation will be forwarded to the container and resolved.
 ## Step 3: Invoke Enunciate
 
 Once we have our source code and project descriptors, the project tree looks like the following (you can see and browse it
-[here](https://github.com/stoicflame/enunciate-sample/blob/master)):
+[here](https://github.com/stoicflame/enunciate-sample/)):
 
 ```
 pom.xml
@@ -191,7 +191,7 @@ of the API.
 Even with no extra options or decorations, Enunciate does a pretty good job of documenting your API. But there's so much more you can do with only a minimal
 amount of effort! Let's give our classes some extra love, then we'll talk about what we did.
 
-You can see and browse this source code [here](https://github.com/stoicflame/enunciate-sample/blob/step5), or checkout branch "step5" from the repository.
+You can see and browse this source code [here](https://github.com/stoicflame/enunciate-sample/tree/step5), or checkout branch "step5" from the repository.
 
 ```
 src
@@ -247,7 +247,7 @@ It also provides a tool to help with versioning your API.
 
 You'll notice we added a `package-info.java` file to the `com.ifyouwannabecool.api` package. This is where we added the introductory (i.e. "splash")
 documentation for our API. We want this documentation to show up on our index page for our documentation, so we specify this package as the splash
-packge in our `enunciate.xml` configuration file. For more information, check out the [[user guide|User Guide]].
+packge in our `enunciate.xml` configuration file. For more information, check out the [user guide](https://github.com/stoicflame/enunciate/wiki/User-Guide).
 
 #### Documentation
 
