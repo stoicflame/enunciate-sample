@@ -191,8 +191,6 @@ of the API.
 Even with no extra options or decorations, Enunciate does a pretty good job of documenting your API. But there's so much more you can do with only a minimal
 amount of effort! Let's give our classes some extra love, then we'll talk about what we did.
 
-You can see and browse this source code [here](https://github.com/stoicflame/enunciate-sample/tree/step5), or checkout branch "step5" from the repository.
-
 ```
 src
 |
