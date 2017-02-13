@@ -29,7 +29,7 @@ mvn archetype:generate \
   -DarchetypeArtifactId=enunciate-simple-archetype \
   -DarchetypeVersion=2.8.0 \
   -DgroupId=com.ifyouwannabecool \
-  -DartifactId=wannabecool
+  -DartifactId=enunciate-sample
 ```
 
 <a name="step1"/>
@@ -170,7 +170,7 @@ you can invoke Cargo:
 user@localhost>mvn cargo:run
 ```
 
-If invoking cargo, you'll see the application running at [http://localhost:8080/wannabecool].
+If invoking cargo, you'll see the application running at [http://localhost:8080/enunciate-sample].
 
 The first thing you'll notice is a nice-looking web page with a generic title divided into two sections. The first section describes the Resource API, and it
 includes the two services we just wrote. The second section is the data section describing our data types. You'll notice links the XML-Schema file for our
