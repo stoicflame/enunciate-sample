@@ -16,14 +16,36 @@
 
 package com.ifyouwannabecool.domain.persona;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+
 /**
  * A name of a persona.
  *
  * @author Ryan Heaton
  */
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY, getterVisibility = JsonAutoDetect.Visibility.NONE, setterVisibility = JsonAutoDetect.Visibility.NONE)
 public class Name {
 
+  /**
+   * Given name.
+   *
+   * @documentationExample mygiven1
+   * @documentationExample mygiven2
+   */
+  @XmlElement
   private String givenName;
+
+  /**
+   * Surname.
+   *
+   * @documentationExample mysurname1
+   * @documentationExample mysurname2
+   */
+  @XmlElement
   private String surname;
 
   /**
