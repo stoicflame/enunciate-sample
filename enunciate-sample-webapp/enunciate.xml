@@ -1,10 +1,8 @@
 <enunciate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://enunciate.webcohesion.com/schemas/enunciate-2.12.0.xsd">
 
-  <title>If You Wanna Be Cool API</title>
+  <title>Enunciate Sample Web Application</title>
   <description package="com.ifyouwannabecool.api"/>
-  <copyright>IfYouWannaBeCool.com</copyright>
-
-  <application root="http://www.ifyouwannabecool.com/api"/>
+  <copyright>Web Cohesion</copyright>
 
   <namespaces>
     <namespace id="api" uri="http://api.ifyouwannabecool.com/"/>
@@ -14,7 +12,7 @@
 
   <modules>
     <docs>
-      <download file="LICENSE" name="Apache II" description="The license governing this API" showLink="true"/>
+      <download file="../LICENSE" name="Apache II" description="The license governing this API" showLink="true"/>
     </docs>
     <java-xml-client>
       <package-conversions>
