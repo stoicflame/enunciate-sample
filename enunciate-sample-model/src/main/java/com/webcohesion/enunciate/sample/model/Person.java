@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ifyouwannabecool.domain.persona;
+package com.webcohesion.enunciate.sample.model;
 
 import javax.activation.DataHandler;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -23,7 +23,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author Ryan Heaton
  */
 @XmlRootElement
-public class Persona {
+public class Person {
 
   private String id;
   private String email;

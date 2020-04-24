@@ -1,13 +1,11 @@
 <enunciate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://enunciate.webcohesion.com/schemas/enunciate-2.12.0.xsd">
 
   <title>Enunciate Sample Web Application</title>
-  <description package="com.ifyouwannabecool.api"/>
+  <description package="com.webcohesion.enunciate.sample"/>
   <copyright>Web Cohesion</copyright>
 
   <namespaces>
-    <namespace id="api" uri="http://api.ifyouwannabecool.com/"/>
-    <namespace id="link" uri="http://api.ifyouwannabecool.com/link"/>
-    <namespace id="persona" uri="http://api.ifyouwannabecool.com/persona"/>
+    <namespace id="model" uri="http://webcohesion.com/enunciate/samples/model/"/>
   </namespaces>
 
   <modules>
@@ -16,9 +14,10 @@
     </docs>
     <java-xml-client>
       <package-conversions>
-        <convert from="com.ifyouwannabecool" to="com.ifyouwannabecool.client"/>
+        <convert from="com.webcohesion.enunciate.sample" to="com.webcohesion.enunciate.sample.client"/>
       </package-conversions>
     </java-xml-client>
+    <swagger basePath="/${project.artifactId}"/>
   </modules>
 
 </enunciate>

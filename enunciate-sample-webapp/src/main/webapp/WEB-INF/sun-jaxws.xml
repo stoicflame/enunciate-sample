@@ -2,11 +2,7 @@
 <endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
 
   <endpoint name="person-service"
-            implementation="com.ifyouwannabecool.impl.PersonaServiceImpl"
+            implementation="com.webcohesion.enunciate.sample.ws.PersonService"
             url-pattern="/person-service"/>
-
-  <endpoint name="group-service"
-            implementation="com.ifyouwannabecool.impl.SocialGroupServiceImpl"
-            url-pattern="/group-service"/>
 
 </endpoints>

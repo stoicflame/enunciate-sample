@@ -14,7 +14,7 @@
     <filter-class>org.glassfish.jersey.servlet.ServletContainer</filter-class>
     <init-param>
       <param-name>javax.ws.rs.Application</param-name>
-      <param-value>com.ifyouwannabecool.App</param-value>
+      <param-value>com.webcohesion.enunciate.sample.rs.App</param-value>
     </init-param>
   </filter>
 
@@ -46,11 +46,6 @@
   <servlet-mapping>
     <servlet-name>jaxws</servlet-name>
     <url-pattern>/person-service</url-pattern>
-  </servlet-mapping>
-
-  <servlet-mapping>
-    <servlet-name>jaxws</servlet-name>
-    <url-pattern>/group-service</url-pattern>
   </servlet-mapping>
 
   <mime-mapping>

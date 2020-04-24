@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ifyouwannabecool.domain.persona;
+package com.webcohesion.enunciate.sample.model;
 
 /**
  * A name of a persona.

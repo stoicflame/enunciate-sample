@@ -1,4 +1,4 @@
-package com.ifyouwannabecool;
+package com.webcohesion.enunciate.sample.rs;
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 import org.glassfish.jersey.server.ResourceConfig;
