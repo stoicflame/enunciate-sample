@@ -16,6 +16,11 @@
       <groupId>com.webcohesion.enunciate</groupId>
       <artifactId>enunciate-core-annotations</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+    </dependency>
   </dependencies>
 
 </project>
