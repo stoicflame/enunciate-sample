@@ -4,6 +4,10 @@
   <description package="com.webcohesion.enunciate.sample"/>
   <copyright>Web Cohesion</copyright>
 
+  <api-classes>
+    <include pattern="com.webcohesion.enunciate.sample.model.*"/>
+  </api-classes>
+
   <namespaces>
     <namespace id="model" uri="http://webcohesion.com/enunciate/samples/model/"/>
   </namespaces>
