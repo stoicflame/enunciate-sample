@@ -5,6 +5,7 @@
   <copyright>Web Cohesion</copyright>
 
   <api-classes>
+    <include pattern="com.webcohesion.enunciate.sample.rs.*"/>
     <include pattern="com.webcohesion.enunciate.sample.model.*"/>
   </api-classes>
 
