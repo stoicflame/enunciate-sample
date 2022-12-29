@@ -12,14 +12,14 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <enunciate.version>2.14.0</enunciate.version>
+    <enunciate.version>2.15.0-SNAPSHOT</enunciate.version>
     <jackson.version>2.5.3</jackson.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jaxb-core.version>2.3.0.1</jaxb-core.version>
     <jaxb-impl.version>2.3.2</jaxb-impl.version>
     <jaxws-tools.version>2.3.0</jaxws-tools.version>
     <jaxws-api.version>2.3.1</jaxws-api.version>
-    <jersey.version>2.5</jersey.version> <!--WARNING: version 2.6 and up require jdk 1.7-->
+    <jersey.version>2.5</jersey.version>
     <servlet-api.version>3.0.1</servlet-api.version>
   </properties>
 
@@ -30,8 +30,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.10.1</version>
         <configuration>
-          <source>8</source>
-          <target>8</target>
+          <source>11</source>
+          <target>11</target>
         </configuration>
       </plugin>
       <plugin>
