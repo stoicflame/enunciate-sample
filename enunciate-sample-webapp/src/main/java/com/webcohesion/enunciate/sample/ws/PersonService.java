@@ -6,7 +6,7 @@
 
 package com.webcohesion.enunciate.sample.ws;
 
-import javax.jws.WebService;
+import jakarta.jws.WebService;
 
 import com.webcohesion.enunciate.sample.model.Person;
 

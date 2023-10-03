@@ -16,7 +16,7 @@
 
 package com.webcohesion.enunciate.sample.ws;
 
-import javax.xml.ws.WebFault;
+import jakarta.xml.ws.WebFault;
 
 /**
  * Thrown when an attempt is made to do something without the correct permissions.

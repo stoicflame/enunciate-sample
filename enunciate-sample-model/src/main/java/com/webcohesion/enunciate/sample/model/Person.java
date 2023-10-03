@@ -16,8 +16,8 @@
 
 package com.webcohesion.enunciate.sample.model;
 
-import javax.activation.DataHandler;
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.activation.DataHandler;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
 /**
  * @author Ryan Heaton
@@ -29,7 +29,7 @@ public class Person {
   private String email;
   private String alias;
   private Name name;
-  private javax.activation.DataHandler picture;
+  private jakarta.activation.DataHandler picture;
 
   public String getId() {
     return id;
