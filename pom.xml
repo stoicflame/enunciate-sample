@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <enunciate.version>2.17.1</enunciate.version>
+    <enunciate.version>2.18.0</enunciate.version>
     <jackson.version>2.14.1</jackson.version>
     <jaxb-api.version>4.0.0</jaxb-api.version>
     <jaxb-impl-glassfish.version>4.0.3</jaxb-impl-glassfish.version>
